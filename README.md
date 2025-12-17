@@ -1,4 +1,4 @@
-KTourHunters is an iOS application built with SwiftUI and MapKit that helps users discover and explore popular tourist destinations across South Korea.
+K-Tour Hunters is an iOS application built with SwiftUI and MapKit that helps users discover and explore popular tourist destinations across South Korea.
 
 The app presents an interactive map-based experience where users can browse landmarks, view location details, and navigate between curated points of interest. It focuses on clean UI design, modern SwiftUI architecture, and real-world MapKit integration.
 
