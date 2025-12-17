@@ -1,4 +1,4 @@
-# KTourHunters
+# K-Tour Hunters
 
 K-Tour Hunters is a modern iOS application built with **SwiftUI** and **MapKit** that helps users discover and explore iconic tourist destinations across South Korea.
 
@@ -29,7 +29,6 @@ TBD
 * **Language:** Swift
 * **UI Framework:** SwiftUI
 * **Maps:** MapKit
-* **Architecture:** MVVM
 * **IDE:** Xcode 16
 * **Platform:** iOS 17+
 
@@ -37,7 +36,7 @@ TBD
 
 ## 🧱 Architecture Overview
 
-KTourHunters follows a lightweight **MVVM** structure:
+K-Tour Hunters follows a lightweight **MVVM** structure:
 
 * **Models** – Represent location data and domain entities
 * **ViewModels** – Handle state, business logic, and map coordination
@@ -54,7 +53,7 @@ Planned enhancements include:
 * Search and filtering for landmarks by category
 * User location tracking and nearby place recommendations
 * Offline caching of location data
-* Localization support (Korean / English)
+* Localization support
 * Deeper accessibility support (Dynamic Type, VoiceOver)
 * Modular data loading from a remote API
 
