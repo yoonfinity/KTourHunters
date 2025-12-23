@@ -21,6 +21,9 @@ struct DriverCardView: View {
             VStack(spacing: 8) {
                 Text(location.nameKorean)
                     .font(.system(size: 60, weight: .bold))
+                    .multilineTextAlignment(.center)
+                    .lineLimit(2)
+                    .minimumScaleFactor(0.6)
                 Text(location.cityNameKorean)
                     .font(.title)
                     .foregroundStyle(.secondary)

@@ -111,7 +111,7 @@ extension LocationDetailView {
                     .foregroundStyle(.secondary)
             
             if let url = URL(string: location.link) {
-                Link("Read more on Wikipedia", destination: url)
+                Link("Learn more about this landmark", destination: url)
                     .font(.headline)
                     .tint(.blue)
             }

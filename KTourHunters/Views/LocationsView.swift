@@ -19,6 +19,9 @@ struct LocationsView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     let maxWidthForIpad: CGFloat = 700
     
+    // adding for initial fade in
+    @State private var hasAppeared = false
+    
     var body: some View {
             ZStack {
                 mapLayer
@@ -32,6 +35,12 @@ struct LocationsView: View {
                     Spacer()
                     locationsPreviewStack
                 }
+            }
+            .opacity(hasAppeared ? 1 : 0)
+            .scaleEffect(hasAppeared ? 1 : 0.98)
+            .animation(.easeOut(duration: 0.5), value: hasAppeared)
+            .onAppear {
+                hasAppeared = true
             }
             .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
                 LocationDetailView(location: location)
