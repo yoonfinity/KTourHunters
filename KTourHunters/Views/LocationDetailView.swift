@@ -252,7 +252,7 @@ extension LocationDetailView {
     
     private var subwaySection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Label("Nearest Subway", systemImage: "train.side.front.car")
+            Label(location.nearbySubways.count > 1 ? "Nearby Subway Stations" : "Nearest Subway Station", systemImage: "train.side.front.car")
                         .font(.caption)
                         .fontWeight(.bold)
                         .foregroundStyle(.secondary)
