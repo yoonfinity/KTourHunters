@@ -167,7 +167,7 @@ extension LocationDetailView {
             // Naver Map URL Scheme
             let naverUrlString = "nmap://place?lat=\(latitude)&lng=\(longitude)&name=\(encodedName)&appname=\(appBundleId)"
             
-            print("DEBUG: Generated URL -> \(naverUrlString)")
+            // print("DEBUG: Generated URL -> \(naverUrlString)")
                 
             if let naverUrl = URL(string: naverUrlString), UIApplication.shared.canOpenURL(naverUrl) {
                 // Happy Path: Open Naver

@@ -17,7 +17,7 @@ class LocationsDataService {
             nameKorean: "경복궁",
             cityNameKorean: "서울",
             addressKorean: "서울 종로구 사직로 161 경복궁",
-            coordinates: CLLocationCoordinate2D(latitude: 37.575832, longitude: 126.973857),
+            coordinates: CLLocationCoordinate2D(latitude: 37.5796, longitude: 126.9794),
             description: "Gyeongbokgung Palace is the largest and most iconic royal palace of the Joseon Dynasty. Originally constructed in 1395, it served as the main royal residence and political center of the kingdom. The palace features grand gates, expansive courtyards, and traditional halls set against a mountainous backdrop. Gyeongbokgung remains one of Seoul’s most significant cultural landmarks.",
             imageNames: [
                 "seoul-gyeongbokgung-palace-1",
@@ -185,7 +185,7 @@ class LocationsDataService {
             nameKorean: "강남역",
             cityNameKorean: "서울",
             addressKorean: "서울특별시 강남구 강남대로 396",
-            coordinates: CLLocationCoordinate2D(latitude: 37.4921, longitude: 127.0232),
+            coordinates: CLLocationCoordinate2D(latitude: 37.497942, longitude: 127.027621),
             description: "Gangnam Station is a major transportation hub and one of Seoul’s busiest commercial areas. The surrounding district is known for its shopping, dining, nightlife, and energetic street culture. Underground malls, cafes, and entertainment venues make the area lively throughout the day and night. Gangnam Station represents the fast-paced, modern lifestyle of Seoul’s urban core.",
             imageNames: [
                 "seoul-gangnam-station-1",
@@ -213,7 +213,7 @@ class LocationsDataService {
             nameKorean: "해운대해수욕장",
             cityNameKorean: "부산",
             addressKorean: "부산 해운대구 우동",
-            coordinates: CLLocationCoordinate2D(latitude: 35.158, longitude: 129.161),
+            coordinates: CLLocationCoordinate2D(latitude: 35.15855, longitude: 129.16053),
             description: "Haeundae Beach is South Korea’s most famous beach, located along the southeastern coast of Busan. Known for its wide sandy shoreline and scenic ocean views, it attracts visitors year-round for relaxation, festivals, and seaside activities. The surrounding area offers hotels, cafes, seafood restaurants, and coastal walks. Haeundae Beach combines a laid-back beach atmosphere with the energy of a modern coastal city.",
             imageNames: [
                 "busan-haeundae-1",
