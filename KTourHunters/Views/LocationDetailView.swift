@@ -27,6 +27,7 @@ struct LocationDetailView: View {
                 
                 VStack(alignment: .leading, spacing: 16) {
                     titleSection
+                    subwaySection
                     Divider()
                     descriptionSection
                     // TextField("Paste here to test", text: $testPaste)
@@ -247,5 +248,25 @@ extension LocationDetailView {
                 .shadow(radius: 4)
                 .padding()
         }
+    }
+    
+    private var subwaySection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Label("Nearest Subway", systemImage: "train.side.front.car")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.secondary)
+                    
+                    // The actual badge(s)
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 10) {
+                            ForEach(location.nearbySubways) { subway in
+                                SubwayBadgeView(subway: subway)
+                            }
+                        }
+                    }
+        }
+        // .background(Color.red.opacity(0.3))
+        .padding(.top, 4)
     }
 }

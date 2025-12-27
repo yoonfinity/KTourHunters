@@ -7,24 +7,39 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		58ED6E2D2ECAB59300C45765 /* KTourHunters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTourHunters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ED6E2D2ECAB59300C45765 /* KTourHunters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = KTourHunters.app; path = "/Users/jasonyoon/Repositories/Programming/iOS/SwiftfulThinking/MappApp/KTourHunters/build/Debug-iphoneos/KTourHunters.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		58AE6B292EE2809000A9E665 /* Exceptions for "KTourHunters" folder in "KTourHunters" target */ = {
+		58B2851F2EFFF2F50012AC7C /* Exceptions for "KTourHunters" folder in "KTourHunters" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Assets.xcassets,
+				ContentView.swift,
+				DataServices/LocationsDataService.swift,
+				"Extensions/Colors+Extensions.swift",
+				KTourHuntersApp.swift,
+				Models/Location.swift,
+				"Preview Content/Preview Assets.xcassets",
+				ViewModels/LocationsViewModel.swift,
+				Views/DriverCardView.swift,
+				Views/LaunchScreen.storyboard,
+				Views/LocationDetailView.swift,
+				Views/LocationMapAnnotationView.swift,
+				Views/LocationPreviewView.swift,
+				Views/LocationsListView.swift,
+				Views/LocationsView.swift,
+				Views/SubwayBadgeView.swift,
 			);
 			target = 58ED6E2C2ECAB59300C45765 /* KTourHunters */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		58ED6E2F2ECAB59300C45765 /* KTourHunters */ = {
+		58B285032EFFF2E70012AC7C /* KTourHunters */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				58AE6B292EE2809000A9E665 /* Exceptions for "KTourHunters" folder in "KTourHunters" target */,
+				58B2851F2EFFF2F50012AC7C /* Exceptions for "KTourHunters" folder in "KTourHunters" target */,
 			);
 			path = KTourHunters;
 			sourceTree = "<group>";
@@ -45,17 +60,8 @@
 		58ED6E242ECAB59300C45765 = {
 			isa = PBXGroup;
 			children = (
-				58ED6E2F2ECAB59300C45765 /* KTourHunters */,
-				58ED6E2E2ECAB59300C45765 /* Products */,
+				58B285032EFFF2E70012AC7C /* KTourHunters */,
 			);
-			sourceTree = "<group>";
-		};
-		58ED6E2E2ECAB59300C45765 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				58ED6E2D2ECAB59300C45765 /* KTourHunters.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +78,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				58ED6E2F2ECAB59300C45765 /* KTourHunters */,
 			);
 			name = KTourHunters;
 			packageProductDependencies = (
@@ -108,7 +111,7 @@
 			mainGroup = 58ED6E242ECAB59300C45765;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 58ED6E2E2ECAB59300C45765 /* Products */;
+			productRefGroup = 58ED6E242ECAB59300C45765;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

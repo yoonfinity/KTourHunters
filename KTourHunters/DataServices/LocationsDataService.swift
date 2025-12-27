@@ -24,7 +24,8 @@ class LocationsDataService {
                 "seoul-gyeongbokgung-palace-2",
                 "seoul-gyeongbokgung-palace-3",
             ],
-            link: "https://royal.cha.go.kr/ENG/contents/E101010000.do"),
+            link: "https://royal.cha.go.kr/ENG/contents/E101010000.do",
+            nearbySubways: [SubwayInfo(stationName: "Gyeongbokgung", lineName: "3", lineColorHex: "EF7C1C")]),
         Location(
             name: "N Seoul Tower",
             cityName: "Seoul",
@@ -38,7 +39,8 @@ class LocationsDataService {
                 "seoul-n-seoul-tower-2",
                 "seoul-n-seoul-tower-3",
             ],
-            link: "https://www.koreatodo.com/namsan-seoul-tower"),
+            link: "https://www.koreatodo.com/namsan-seoul-tower",
+            nearbySubways: [SubwayInfo(stationName: "Myeong-dong", lineName: "4", lineColorHex: "00A4E3")]),
         Location(
             name: "Bukchon Hanok Village",
             cityName: "Seoul",
@@ -52,7 +54,8 @@ class LocationsDataService {
                 "seoul-bukchon-2",
                 "seoul-bukchon-3",
             ],
-            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97932"),
+            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=97932",
+            nearbySubways: [SubwayInfo(stationName: "Anguk", lineName: "3", lineColorHex: "EF7C1C")]),
         Location(
             name: "Myeongdong Shopping Street",
             cityName: "Seoul",
@@ -66,7 +69,8 @@ class LocationsDataService {
                 "seoul-myeongdong-2",
                 "seoul-myeongdong-3",
             ],
-            link: "https://www.koreatodo.com/myeongdong-shopping-district"),
+            link: "https://www.koreatodo.com/myeongdong-shopping-district",
+            nearbySubways: [SubwayInfo(stationName: "Myeong-dong", lineName: "4", lineColorHex: "00A4E3")]),
         Location(
             name: "Changdeokgung Palace",
             cityName: "Seoul",
@@ -80,7 +84,8 @@ class LocationsDataService {
                 "seoul-changdeokgung-palace-2",
                 "seoul-changdeokgung-palace-3",
             ],
-            link: "https://royal.cha.go.kr/ENG/contents/E102010000.do"),
+            link: "https://royal.cha.go.kr/ENG/contents/E102010000.do",
+            nearbySubways: [SubwayInfo(stationName: "Anguk", lineName: "3", lineColorHex: "EF7C1C")]),
         Location(
             name: "Insadong",
             cityName: "Seoul",
@@ -94,7 +99,11 @@ class LocationsDataService {
                 "seoul-insadong-2",
                 "seoul-insadong-3",
             ],
-            link: "https://www.koreatodo.com/insadong"),
+            link: "https://www.koreatodo.com/insadong",
+            nearbySubways: [SubwayInfo(stationName: "Anguk", lineName: "3", lineColorHex: "EF7C1C"),
+                            SubwayInfo(stationName: "Jongno 3-ga", lineName: "1", lineColorHex: "0052A4"),
+                            SubwayInfo(stationName: "Jongno 3-ga", lineName: "3", lineColorHex: "EF7C1C"),
+                            SubwayInfo(stationName: "Jongno 3-ga", lineName: "5", lineColorHex: "996CAC")]),
         Location(
             name: "Dongdaemun Design Plaza (DDP)",
             cityName: "Seoul",
@@ -108,7 +117,10 @@ class LocationsDataService {
                 "seoul-ddp-2",
                 "seoul-ddp-3",
             ],
-            link: "https://ddp.or.kr/?menuno=346"),
+            link: "https://ddp.or.kr/?menuno=346",
+            nearbySubways: [SubwayInfo(stationName: "DDP", lineName: "2", lineColorHex: "00A84D"),
+                            SubwayInfo(stationName: "DDP", lineName: "4", lineColorHex: "00A4E3"),
+                            SubwayInfo(stationName: "DDP", lineName: "5", lineColorHex: "996CAC")]),
         Location(
             name: "Deoksugung Palace",
             cityName: "Seoul",
@@ -122,7 +134,8 @@ class LocationsDataService {
                 "seoul-deoksugung-palace-2",
                 "seoul-deoksugung-palace-3",
             ],
-            link: "https://royal.cha.go.kr/ENG/contents/E104010000.do"),
+            link: "https://royal.cha.go.kr/ENG/contents/E104010000.do",
+            nearbySubways: [SubwayInfo(stationName: "City Hall", lineName: "1", lineColorHex: "0052A4")]),
         Location(
             name: "Lotte World Tower",
             cityName: "Seoul",
@@ -136,7 +149,8 @@ class LocationsDataService {
                 "seoul-lotte-tower-2",
                 "seoul-lotte-tower-3",
             ],
-            link: "https://www.lwt.co.kr/en/tourist-guide/view.do?guide-id=2nd"),
+            link: "https://www.lwt.co.kr/en/tourist-guide/view.do?guide-id=2nd",
+            nearbySubways: [SubwayInfo(stationName: "Jamsil", lineName: "2", lineColorHex: "00A84D")]),
         Location(
             name: "Starfield COEX Mall",
             cityName: "Seoul",
@@ -150,7 +164,9 @@ class LocationsDataService {
                 "seoul-coex-2",
                 "seoul-coex-3",
             ],
-            link: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=138121"),
+            link: "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=138121",
+            nearbySubways: [SubwayInfo(stationName: "Samseong", lineName: "2", lineColorHex: "00A84D"),
+                            SubwayInfo(stationName: "Bongeunsa", lineName: "9", lineColorHex: "BDB092")]),
         Location(
             name: "Gwangjang Market",
             cityName: "Seoul",
@@ -164,7 +180,10 @@ class LocationsDataService {
                 "seoul-gwangjang-market-2",
                 "seoul-gwangjang-market-3",
             ],
-            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106345"),
+            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106345",
+            nearbySubways: [SubwayInfo(stationName: "Jongno 5-ga", lineName: "1", lineColorHex: "0052A4"),
+                            SubwayInfo(stationName: "Euljiro 4-ga", lineName: "2", lineColorHex: "00A84D"),
+                            SubwayInfo(stationName: "Euljiro 4-ga", lineName: "5", lineColorHex: "996CAC")]),
         Location(
             name: "Namdaemun Market",
             cityName: "Seoul",
@@ -178,7 +197,8 @@ class LocationsDataService {
                 "seoul-namdaemun-2",
                 "seoul-namdaemun-3",
             ],
-            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106358"),
+            link: "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=106358",
+            nearbySubways: [SubwayInfo(stationName: "HoeHyeon", lineName: "4", lineColorHex: "00A4E3")]),
         Location(
             name: "Gangnam Station",
             cityName: "Seoul",
@@ -192,7 +212,9 @@ class LocationsDataService {
                 "seoul-gangnam-station-2",
                 "seoul-gangnam-station-3",
             ],
-            link: "https://www.koreatodo.com/gangnam-shopping-street"),
+            link: "https://www.koreatodo.com/gangnam-shopping-street",
+            nearbySubways: [SubwayInfo(stationName: "Gangnam", lineName: "2", lineColorHex: "00A84D"),
+                            SubwayInfo(stationName: "Gangnam", lineName: "Shinbundang", lineColorHex: "D31145")]),
         Location(
             name: "Hongdae (Hongik Univ. Station Area)",
             cityName: "Seoul",
@@ -206,7 +228,8 @@ class LocationsDataService {
                 "seoul-hongdae-2",
                 "seoul-hongdae-3",
             ],
-            link: "https://www.koreatodo.com/hongdae-hongik-university-street"),
+            link: "https://www.koreatodo.com/hongdae-hongik-university-street",
+            nearbySubways: [SubwayInfo(stationName: "Hongik Univ.", lineName: "2", lineColorHex: "00A84D")]),
         Location(
             name: "Haeundae Beach",
             cityName: "Busan",
@@ -220,6 +243,7 @@ class LocationsDataService {
                 "busan-haeundae-2",
                 "busan-haeundae-3",
             ],
-            link: "https://www.koreatodo.com/haeundae-beach"),
+            link: "https://www.koreatodo.com/haeundae-beach",
+            nearbySubways: [SubwayInfo(stationName: "Haeundae", lineName: "2", lineColorHex: "00A84D")]),
     ]
 }

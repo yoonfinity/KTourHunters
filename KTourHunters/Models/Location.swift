@@ -8,6 +8,13 @@
 import Foundation
 import MapKit
 
+struct SubwayInfo: Identifiable, Codable {
+    var id = UUID()
+    let stationName: String
+    let lineName: String 
+    let lineColorHex: String
+}
+
 // all of the data for the specific location
 struct Location: Identifiable, Equatable {
     let name: String
@@ -19,6 +26,7 @@ struct Location: Identifiable, Equatable {
     let description: String
     let imageNames: [String]
     let link: String
+    let nearbySubways: [SubwayInfo]
     
     // computed var
     // identifiable
