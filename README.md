@@ -8,7 +8,12 @@ The app provides a clean, map‑first experience where users can browse curated 
 
 ## 📱 Screenshots
 
-TBD
+<p align="center">
+  <img src="assets/images/KTH_Screenshot_Page2.jpeg" width="200" />
+  <img src="assets/images/KTH_Screenshot_Page3.jpeg" width="200" />
+  <img src="assets/images/KTH_Screenshot_Page5.jpeg" width="200" />
+  <img src="assets/images/KTH_Screenshot_Page6.jpeg" width="200" />
+</p>
 
 ---
 
