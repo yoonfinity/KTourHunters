@@ -62,3 +62,11 @@ Planned enhancements include:
 ## 📄 License
 
 This project is for educational and portfolio purposes.
+
+---
+
+## 🔒 Privacy Policy
+
+K-Tour Hunters does not collect, store, or share personal data.
+The app uses Apple Maps and Naver Map for navigation.
+No user accounts, analytics, or tracking are used.
